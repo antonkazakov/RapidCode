@@ -6,12 +6,12 @@ Put RapidCode.xml file into following directories
 
 # RapidCode
 
-#### Rsnack
+#### -Rsnack
 Creates and shows simple snackbar:
 ```java
 Snackbar.make(, "", Snackbar.LENGTH_LONG).show();
 ```
-#### Rsnackwclick 
+#### -Rsnackwclick 
 Creates and shows snackbar with OnClickLisntener:
 ```java
 Snackbar snack = Snackbar.make(, "", Snackbar.LENGTH_INDEFINITE);
@@ -23,7 +23,7 @@ Snackbar snack = Snackbar.make(, "", Snackbar.LENGTH_INDEFINITE);
                 });
                 snack.show();
 ```
-#### Toast
+#### -Toast
 Creates simple toast message:
 ```java
 Toast.makeText(, "", Toast.LENGTH_SHORT).show();
